@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400 !important;
     font-size: 15px;
     list-style: none !important;
@@ -18,8 +17,13 @@
     --deepblue:#041D57;
     --black:#262E3B;
 }
+body{
+    background-color: #f9f9f9 !important;
+}
 
-
+nav a{
+    letter-spacing: 1px;
+}
 
 
 .carousel-caption h1{
@@ -35,7 +39,7 @@
 .btn-primary{
     background-color: transparent;
     color: white;
-    padding: 10px 35px;
+    padding: 10px 25px;
     border-radius: 50px;
     font-size: 15px;
     border: 1px solid black;
@@ -54,7 +58,16 @@
     background-color: var(--blue);
     color: white;  
     border: 0; 
-    padding: 10px 35px;
+    padding: 10px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600 !important;
+}
+.btn-secondaryhead{
+    background-color: var(--blue);
+    color: white;  
+    border: 0; 
+    padding: 10px 25px;
     border-radius: 50px;
     font-size: 15px;
     font-weight: 600 !important;
@@ -91,19 +104,34 @@
     background-position: center;
   
 }
+.card{
+    border: 0 !important;
+}
 
 .card-title{
     font-size: 20px;
     padding: 10px 0px;
     font-weight: 600 !important;
 }
-.card-text{
-    font-size: 15px;
-    font-weight: 600 !important;
+
+#Bgchild{
+    background: url(/images/about-banner-3.png) no-repeat;
+    width: 100%;
+    background-size: cover;
 }
-.about h1{
+.mdname{
+    color: var(--deepblue);
+    font-weight: 600 !important;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.about h2{
     color: var(--deepblue);
     text-align: center;
+    font-weight: 700 !important;
+    
+
 }
 .para{
     display: flex;
@@ -113,7 +141,7 @@
     
 }
 .para p{
-    width: 50%;
+    width: 70%;
 
 }
 .edu{
@@ -125,8 +153,25 @@
 .edu a{
     color: var(--deepblue) !important;
     font-weight: 600 !important;
+    align-items: center;
 }
 
+.book img{
+    width: 40px;
+    margin-right: 10px;
+
+}
+
+.book1 img{
+    width: 40px;
+    margin-right: 10px;
+    
+}
+.book2 img{
+    width: 40px;
+    margin-right: 10px;
+    
+}
 
 .smallpara{
     text-align: justify;
@@ -157,15 +202,9 @@
 
 .smallpara2{
     text-align: justify;
-    /* justify-content: end;
-    display: flex; */
-}
-
-.treee{
-    position: relative;
     
-
 }
+
 .tree{
     background-image: url(./images/volunteer-1.jpg);
   background-size: cover;
@@ -175,9 +214,7 @@
   background-attachment: fixed;
 }
 .borderContact{
-    position: absolute;
     top: 15%;
-    width: 45%;
     color: white;
     left: 40px;
     background-color: var(--blue);
