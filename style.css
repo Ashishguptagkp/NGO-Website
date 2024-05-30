@@ -67,7 +67,7 @@ nav a{
     background-color: var(--blue);
     color: white;  
     border: 0; 
-    padding: 10px 25px;
+    padding: 10px 28px;
     border-radius: 50px;
     font-size: 15px;
     font-weight: 600 !important;
@@ -305,4 +305,33 @@ nav a{
        background-color: var(--deepblue);
        border: 0;
     
+}
+
+
+
+
+/* about section  */
+.overlay{
+    position: absolute;
+    background-color: var(--black);
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+
+
+.aboutBg{
+    background: url(/images/children.jpg) no-repeat;
+    background-position: center;
+    min-height: 70vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText{
+    color: white !important;
+
 }
