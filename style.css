@@ -16,6 +16,7 @@
     --blue:#008AD0;
     --deepblue:#041D57;
     --black:#262E3B;
+    --baigani:#855DB4;
 }
 body{
     background-color: #f9f9f9 !important;
@@ -314,9 +315,9 @@ nav a{
 .overlay{
     position: absolute;
     background-color: var(--black);
+    height: 70%;
     width: 100%;
-    height: 100%;
-    opacity: .3;
+    opacity: .4;
 }
 
 
@@ -324,14 +325,201 @@ nav a{
     background: url(/images/children.jpg) no-repeat;
     background-position: center;
     min-height: 70vh;
-    position: relative;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.aboutText{
+.aboutText{ 
     color: white !important;
+    text-align: center;
+    z-index: 2;
+}
 
+.aboutVideo img{
+    left: 50%;
+}
+
+#aboutarea{
+    min-height: 40vh;
+    position: relative;
+}
+
+.aboutVideo{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+.arrow{
+    background-color: var(--blue) !important;
+    color: white !important;
+    
+}
+.arrow img{
+    width: 50px;
+    height: 50px;
+    color: white !important;
+    margin-left: 55px;
+}
+.arrow2{
+    background-color: var(--baigani) !important;
+    color: white !important;
+    
+    
+}
+.arrow2 img{
+    width: 50px;
+    height: 50px;
+    color: white !important;
+    margin-left: 55px;
+}
+.card-body{
+    margin-left: 40px;
+
+}
+
+.card-Text li{
+    list-style: none;
+    text-decoration:none;
+    padding:3px 0px;
+}
+
+.card-Text li a{
+    color: white !important;
+}
+
+.imgcard img{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+/* approach section  */
+.approachBg{
+    background: url(/images/our-approach.jpg) no-repeat;
+    background-position: center;
+    min-height: 70vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* child gallery  */
+.childBg{
+    background: url(/images/ll.jpeg) no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlayy{
+    position: absolute;
+    background-color: var(--black);
+    height: 80%;
+    width: 100%;
+    opacity: .3;
+}
+
+/* old gallery  */
+.oldBg{
+    background: url(/images/3.jpeg) no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* women gallery  */
+.womenBg{
+    background: url(/images/old3.jpeg) no-repeat;
+    /* background-position: center; */
+    min-height: 80vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* help gallery  */
+.helpBg{
+    background: url(/images/21.jpeg) no-repeat;
+    /* background-position: center; */
+    min-height: 80vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* health gallery  */
+.healthBg{
+    background: url(/images/l.jpeg) no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* contact section  */
+.contactBg{
+    background: url(/images/contact-us-banner.jpg) no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBorder{
+    
+    background-color: var(--deepblue);
+    color: white;
+    padding: 30px;
+}
+.btn-contact{
+    background-color: white;
+    color: black;  
+    border: 0; 
+    padding: 10px 28px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600 !important;
+
+}
+
+.map{
+    height: 250px;
+    width: 250px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   
+}
+.icon i{
+    font-size: 30px;
+    
+}
+.form-outline input:focus{
+    background-color: transparent;
+}
+.form-outline textarea:focus{
+    background-color: transparent;
 }

@@ -1,174 +1,513 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NGO Website</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> 
-<link rel="shortcut icon" href="/Img/techibility logo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NGO Website</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="/images/pngwing.com.png" type="image/x-icon">
 
 
 </head>
+
 <body>
-    <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- Container wrapper -->
-        <div class="container">
-          <!-- Toggle button -->
-          <button
-            data-mdb-collapse-init
-            class="navbar-toggler"
-            type="button"
-            data-mdb-target="#navbarCenteredExample"
-            aria-controls="navbarCenteredExample"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-          <i class="ti ti-menu-2"></i>
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- Container wrapper -->
+    <div class="container">
+      <!-- Toggle button -->
+      <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarCenteredExample"
+        aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="ti ti-menu-2"></i>
 
-          </button>
-      
-          <!-- Collapsible wrapper -->
-          <div
-            class="collapse navbar-collapse justify-content-between"
-            id="navbarCenteredExample">
+      </button>
 
-                <!-- logo -->
-                <div class="logo">
-                <!-- <img src="/Img/techibility logo.png" alt="" width="120px"> -->
-                <h1>LOGO</h1>
-                </div>
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCenteredExample">
 
-            <!-- Left links -->
-            <ul class="navbar-nav d-flex gap-3 align-items-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
+        <!-- logo -->
+        <div class="logo">
+          <img src="/images/pngwing.com.png" alt="" width="60px" height="60px">
+          
+        </div>
 
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              
-                    <!-- Dropdown -->
-                    <li class="nav-item dropdown">
-                      <a
-                        data-mdb-dropdown-init
-                        class="nav-link"
-                        href="#"
-                        id="navbarDropdownMenuLink"
-                        role="button"
-                        aria-expanded="false"
-                      >
-                        Our Work <i class="ti ti-chevron-down fs-6"></i>
-                        
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li>
-                          <a class="dropdown-item" href="#">Child Education</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Women Empowerment</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Old age home</a>
-                        </li>
-                         <li>
-                          <a class="dropdown-item" href="#">Help Needy People</a>
-                        </li> <li>
-                          <a class="dropdown-item" href="#">Health</a>
-                        </li>
-                      </ul>
-                    </li>
+        <!-- Left links -->
+        <ul class="navbar-nav d-flex gap-3 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="approach.html">Our Approach</a>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a data-mdb-dropdown-init class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+              aria-expanded="false">
+              Our Work <i class="ti ti-chevron-down fs-6"></i>
+
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="childgallery.html">Child Education</a>
               </li>
-              
-               <!-- Dropdown -->
-               <li class="nav-item dropdown">
-                <a
-                  data-mdb-dropdown-init
-                  class="nav-link"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  aria-expanded="false"
-                >
-                Get Involope <i class="ti ti-chevron-down fs-6"></i>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li>
-                    <a class="dropdown-item" href="#">Career</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Internship</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Volunteer</a>
-                  </li>
-                </ul>
+              <li>
+                <a class="dropdown-item" href="women.html">Women Empowerment</a>
               </li>
-              
-              
-               <!-- Dropdown -->
-               <li class="nav-item dropdown">
-                <a
-                  data-mdb-dropdown-init
-                  class="nav-link"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  Gallery <i class="ti ti-chevron-down fs-6"></i>
-                </a>
-               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li>
-                          <a class="dropdown-item" href="#">Child Education</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Women Empowerment</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Old age home</a>
-                        </li>
-                         <li>
-                          <a class="dropdown-item" href="#">Help Needy People</a>
-                        </li> <li>
-                          <a class="dropdown-item" href="#">Health</a>
-                        </li>
-                      </ul>
+              <li>
+                <a class="dropdown-item" href="old.html">Old age home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="faq.html">FAQ</a>
+              <li>
+                <a class="dropdown-item" href="help.html">Help Needy People</a>
               </li>
-              <li class="nav-item">
-              <a href="contact.html"><button type="submit" class="btn-secondary">Contact Us</button></a>
+              <li>
+                <a class="dropdown-item" href="health.html">Health</a>
               </li>
             </ul>
+          </li>
 
-            <!-- Left links -->
+          <li class="nav-item">
+            <a class="nav-link" href="approach.html">Our Approach</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a data-mdb-dropdown-init class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+              aria-expanded="false">
+              Get Involope <i class="ti ti-chevron-down fs-6"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="career.html">Career</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="insternship.html">Internship</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="volunteer.html">Volunteer</a>
+              </li>
+            </ul>
+          </li>
+
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a data-mdb-dropdown-init class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+              aria-expanded="false">
+              Gallery <i class="ti ti-chevron-down fs-6"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="childgallery.html">Child Education</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Women Empowerment</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="old.html">Old age home</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Help Needy People</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Health</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html"><button type="submit" class="btn-secondary">Contact Us</button></a>
+          </li>
+        </ul>
+
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+
+
+  <!-- hero section -->
+  <section>
+
+    <div class="aboutBg">
+      <div class="overlay"></div>
+
+      <div class="aboutText">
+        <h1 class="fw-bold">About Us</h1>
+        <h4>Give a helping hand for poor people</h4>
+        <button type="button" class="btn-secondaryhead"><i class="ti ti-heart-filled"></i> DONATE NOW</button>
+      </div>
+
+  </section>
+
+  <section id="aboutarea">
+    <div class="aboutVideo">
+
+      <div class="about-relative">
+
+        <div class="play">
+          <i class="ti ti-player-play"></i>
+        </div>
+
+        <img src="/images/about-video.jpg" autoplay muted loop />
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+
+
+  <div class="container w-75">
+    <h2 class="bigtext2 py-5 px-4">“It is obvious to make a living by what we get, but it is more obvious to make a life
+      by what we give.”</h2>
+    <p class="text-muted">Manav Kartavya would like to ask you, “Have you ever wondered what kartavya a Manav shall
+      does?” Manav Kartavya has not only wondered, but explored it to experience it! Manav has the hands to perform his
+      kartavya by helping others. Manav has the feet to perform his kartavya by hastening to poor and needy. And Manav
+      has the head to perform his kartavya by considering everyone as inclusive to uplift an individual from his state
+      of neediness to a state of self-reliant.
+      <br><br>
+      Founded in 2015, Manav Kartavya is an Ahmedabad, Gujarat, India, based Non-Governmental Organization (NGO)
+      committed to helping disadvantaged beings. Each day represents a fresh opportunity to share our Vision of
+      creating, ‘The Advantaged Society’; and to live our purpose of empowering the possibilities for economically
+      weaker communities by supporting them with basic necessities such as education, food, health, shelter, etc. to
+      empower them to take charge of their own future as our Mission.
+    </p>
+  </div>
+
+  <div class="container py-5 w-75">
+            <div class="card-group gap-5">
+                <div class="card arrow pt-5">
+                  <img src="/images/bullseye-with-arrow.png" class="" alt="Hollywood Sign on The Hill"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Our Mission</h5>
+                    <p class="card-text text-align-justify">
+                      We seek to build ‘The Advantaged Society’ by helping disadvantaged. We help disadvantaged by enhancing child education, eradicating poverty, by empowering women, by disseminating happiness in old-age home, and by providing protection for Gau-matas.
+                    </p>
+                    <br>
+                    
+                  </div>
+                </div>
+                <div class="card arrow2 pt-5">
+                  <img src="/images/home.png" class="" alt="Hollywood Sign on The Hill"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Our Vission</h5>
+                    <p class="card-text text-align-justify">
+                      We seek to build ‘The Advantaged Society’ by helping disadvantaged. We help disadvantaged by enhancing child education, eradicating poverty, by empowering women, by disseminating happiness in old-age home, and by providing protection for Gau-matas.
+                    </p>
+                    
+                    <br>
+                  </div>
+                </div>
+                <div class="card arrow pt-5">
+                  <img src="/images/compassion.png" class="" alt="Hollywood Sign on The Hill"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Our Values</h5>
+
+                    <div class="card-Text">
+                        <li><a href="#"><i class="ti ti-caret-right-filled"></i> Accountability</a></li>
+                        <li><a href="#"><i class="ti ti-caret-right-filled"></i> Reliability</a></li>
+                        <li><a href="#"><i class="ti ti-caret-right-filled"></i> Cost-effectiveness</a></li>
+                        <li><a href="#"><i class="ti ti-caret-right-filled"></i> Personal service</a></li>
+                        <li><a href="#"><i class="ti ti-caret-right-filled"></i> Accountability</a></li>
+                        <li><a href="#"><i class="ti ti-caret-right-filled"></i> Reliability</a></li>
+                        <li><a href="#"><i class="ti ti-caret-right-filled"></i> Cost-effectiveness</a></li>
+                      
+                        <br>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+             
+
+
+   <!-- testimonial -->
+   <div class="testimonial">
+    <div class="container py-5">
+      <div class="d-flex justify-content-center align-items-center">
+        <img src="/static/images/arrow/about.png" id="clientArrow" width="150px" alt="">
+      </div>
+      
+      <h1 class="bigtext2 text-center">Our Departments</h1>
+      
+      
+      <div class="swiper mySwiper text-center col-md-12">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            
+            <div class="d-flex justify-content-center pb-3 py-5">
+              <img src="/images/ladies.jpeg" class="w-75" alt="">
+            </div>
+            <p class="w-75 mx-auto">
+              The Department of Women's Ministries exists to uphold, encourage, and challenge Adventist women in their pilgrimage as disciples of Jesus Christ and members of His world church.
+              Vision: Women empowered and nurtured to fulfill their God-given potential.
+              
+              Mission: Our mission is in the larger sense common to all Christians—that of uplifting Christ in the Church and in the world. But more specifically, we are called to:
+              
+              Nurture—Reach Up to God 
+              Empower—Reach In with God 
+              Outreach—Reach Out with God 
+              
+              Women's Ministries is a place to address the spiritual, emotional, physical, and social needs of women in the church. Women's Ministries encourages women to improve their potential for participation in the mission of the church. It is a support system for hurting women—whether they are suffering from divorce, abuse or simply loneliness. It encourages women to become involved in all areas of ministry in their church, their community, and in their home. It mentors young women so that they may find joy in the Lord. Women's Ministries recognizes that women have many Gifts of the Spirit, and it attempts to help women discover and use these gifts to the glory of God.
+            </p>
+            
           </div>
-          <!-- Collapsible wrapper -->
+          <div class="swiper-slide">
+            <div class="d-flex justify-content-center pb-3 py-5">
+              <img src="/images/youth.jpeg" class="w-75" alt="">
+            </div>
+            <p class="w-75 mx-auto">
+              The primary focus of our youth ministry is the salvation of our youth. Recognizing increased at-risk behavior, falling moral standards, and rising youth apostasy rates, we aim to bring young hearts closer to Christ. Through innovative digital approaches, we seek to engage, inspire, and lead them on a path of faith and discipleship¹.
+
+              ##  Building upon the legacy of our predecessors, we look beyond the obvious. As we approach the second coming of Jesus Christ, our digital transformation strategy involves:
+              
+              
+              - *Digital Animation Evangelism (DAE)*: Created as a means to unite Seventh-day Adventist youth, DAE leverages animation to share the gospel. Talented young animators collaborate to produce captivating content that draws souls to Christ. Whether through short films, social media, or interactive websites, DAE bridges the gap between technology and evangelism
+              
+              - *Literature Distribution*: In the spirit of the early years, where youth distributed millions of pieces of literature, we continue to use digital channels for literature distribution. E-books,books  and online devotions.
+              
+              - Through social media, webinars, and virtual events, we connect with youth worldwide. Our goal is to create meaningful interactions that lead to personal 
+              - - *Online fundamentals Believes*: Interactive Bible study platforms allow youth to explore Scripture, ask questions, and deepen their faith. We encourage peer-led discussions and mentorship.
+              
+              - *Virtual Prayer Networks*: Connecting young prayer warriors across time zones, we foster a culture of intercession. Prayer apps, live streams, and prayer chains keep us united in seeking God's guidance.
+              
+               Global Youth Vision**
+              
+              The Global Youth Vision unites local churches with global objectives. As part of this vision, we pass on the baton of leadership, making every local church a true home for youth.
+            </p>
+            
+          </div>
+          <div class="swiper-slide">
+            <div class="d-flex justify-content-center pb-3 py-5">
+              <img src="/images/h.jpeg" class="w-75" alt="">
+            </div>
+            <p class="w-75 mx-auto">
+              Health and Temperance. -The church Health and Temperance Council, in collaboration with the Lay Activities Council, shall lead out in developing a schedule of health and temperance activities that will include programs such as stop-smoking plans, cooking schools, health classes, stress-control programs, and other related endeavors. We believe our body is the temple of God and as such we have a special responsibility to protect and care for our bodies. The promotion of good health and a healthy lifestyle is an integral part of the mission of the Seventh-day Adventists. The Health Ministries Department is committed to pursue Christ mission in restoring the image of God in man. “To make man whole” is the primary objective of the department.
+            </p>
+            
+          </div>
+          <div class="swiper-slide">
+            <div class="d-flex justify-content-center pb-3 py-5">
+              <img src="/images/r.jpeg" class="w-75" alt="">
+            </div>
+            <p class="w-75 mx-auto">
+              Sabbath School is an essential part of Seventh-day Adventist worship and study. It provides a platform for members to engage in Bible study, explore God’s Word, and deepen their faith. The lessons cover various topics related to the cosmic conflict between good and evil, emphasizing spiritual growth and understanding.
+
+              The current quarterly lesson, titled “The Great Controversy,” delves into themes such as the ongoing battle between righteousness and sin, the role of Jesus as our High Priest, the enduring power of God’s Word, and the hope we find in salvation. Each week, participants study a specific lesson, memorize key verses, and discuss the material in small groups.
+              
+              Remember, Sabbath School encourages fellowship, learning, and spiritual reflection. If you’re interested, you can find detailed lesson materials, videos, and additional resources on the Sabbath School website. 
+              Feel free to explore and engage in meaningful study with fellow believers! 
+              
+            </p>
+            
+          </div>
+          <div class="swiper-slide">
+            <div class="d-flex justify-content-center pb-3 py-5">
+              <img src="/images/y.jpeg" class="w-75" alt="">
+            </div>
+            <p class="w-75 mx-auto">
+              Children’s Ministry aims to develop the faith of children from birth through age 14, leading them into union with the Church.
+              It seeks to provide multiple ministries that will:
+              Lead children to Jesus.
+              Disciple them in their daily walk with Him.
+              Cooperate with other departments, including Sabbath School, to provide religious education to children.
+              Mission and Approach:
+              Children’s Ministries fulfills its mission by developing a variety of grace-oriented ministries for children. These ministries are:
+              Inclusive: Welcoming all children regardless of background or abilities.
+              Service-Oriented: Encouraging children to serve others.
+              Leadership-Building: Equipping children with leadership skills.
+              Safe: Providing a secure environment.
+              Evangelistic: Sharing the gospel with children.
+              Importance of Early Training:
+              Ellen G. White, a prominent Adventist author, emphasized the significance of early training for children:
+              “The lessons that the child learns during the first seven years of life have more to do with forming their character than all they learn in future years.”
+              “Children are the most susceptible to the teachings of the gospel; their hearts are open to divine influences.”
+              “Very young children may have correct views of their state as sinners and of salvation through Christ.”
+              Encouragement to Allow Children to Come to Jesus:
+              Jesus Himself encouraged His followers not to hinder children from coming to Him.
+              The church and parents should allow children to experience spiritual growth and education.
+              Remember, Children’s Ministries plays a vital role in nurturing young hearts and minds within the Seventh-day Adventist Church community.
+            </p>
+            
+          </div>
+          <div class="swiper-slide">
+            <div class="d-flex justify-content-center pb-3 py-5">
+              <img src="/images/kk.jpeg" class="w-75" alt="">
+            </div>
+            <p class="w-75 mx-auto">
+              Welcome to our esteemed institution, where excellence in education intertwines with a profound commitment to moral science. We focus on educating and developing students, in harmony of the Physical, Intellectual, Social and Spiritual needs of life. 
+Nestled within a sprawling, verdant campus, our school offers an idyllic setting for fostering the intellectual and ethical development of young minds. With a dedicated focus on providing ample space for learning and growth, we ensure every child receives the attention and resources necessary to flourish academically and personally. 
+Join us in cultivating a community where knowledge thrives amidst nature's embrace, and character is nurtured under God's guidance with unwavering dedication.
+            </p>
+            
+          </div>
         </div>
-        <!-- Container wrapper -->
-      </nav>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  <!-- testimonial -->
 
 
-      <!-- hero section -->
-      <section>
+
+  
+  <!-- our team  -->
+  <section>
+  <div class="container py-5 w-75">
+    <h1 class="bigtext text-center">Our Team</h1>
+    <div class="card-group gap-5 py-5">
+        <div class="card imgcard">
+          <img src="/images/l (2).jpeg" class="" alt="Hollywood Sign on The Hill"/>
+          <div class="card-body">
+            <h5 class="card-title text-center">Mr.Gagan singh 
+              Principle of SDA school varanasi</h5>
+           
+            
+          </div>
+        </div>
+        <div class="card imgcard">
+          <img src="/images/q.jpeg" class="" alt="Hollywood Sign on The Hill"/>
+          <div class="card-body">
+            <h5 class="card-title text-center">Mrs.Promila Lall. <br> Women's Ministry Director</h5>
+            
+            
+          </div>
+        </div>
+        <div class="card imgcard">
+          <img src="/images/ml.jpeg" class="" alt="Hollywood Sign on The Hill"/>
+          <div class="card-body">
+            <h5 class="card-title text-center">Mr. Harun Lakhra <br>Treasure EUPS</h5>
+          </div>
+        </div>
         
-          <div class="aboutBg">
-            <div class="overlay"></div>
-            <div class="aboutText">
-            <h1>About Us</h1>
-            <h4>Give a helping hand for poor people</h4>
-            <button type="button" class="btn-secondaryhead"><i class="ti ti-heart-filled"></i> DONATE NOW</button>  
-        </div>
-    </div>          
+        
+      </div>
+      <div class="d-flex justify-content-center">
+        <button type="button" class="btn-secondary ">JOIN WITH US</button>
+      </div>
+    </div>
+  </section>
 
-      </section>
+
+  <!-- work  -->
+  <section>
+    <div class="container py-5">
+      <h1 class="bigtext text-center">Where We Work </h1>
+      <div class="d-flex justify-content-center align-items-center py-5">
+        <img src="/images/gujarat.png" class="w-50" alt="">
+      </div>
+    </div>
+  </section>
+
+  
+<!-- footer section  -->
+<section id="Back" class="py-5">
+  <div class="container-fluid">
+    <div class="container">
+    <div class="row py-5">
+      <div class="col-md-4">
+        
+        <img src="/images/pngwing.com.png" class="w-25" alt="">
+        <p class="pt-4">Founded in 2015, Adventist<br> is  an Ahmedabad, Gujarat, India,<br> based Non-Governmental Organization <br> (NGO) committed to helping disadvantaged <br>beings.</p>
+
+        <div class="fbIcon gap-2 pt-4">
+          <i class="ti ti-brand-facebook"></i>
+          <i class="ti ti-brand-instagram"></i>
+          <i class="ti ti-brand-twitter"></i>
+
+          <i class="ti ti-brand-linkedin"></i>
+          <i class="ti ti-brand-youtube"></i>
+
+        </div>
+        
+      </div>
+      
+      <div class="col-md-4 links">
+        <h3>Information Links</h3>
+        <div class="py-4">
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Our Work</a></li>
+        <li><a href="approach.html">Our Approach</a></li>
+        <li><a href="involope.html">Get Involope</a></li>
+        <li><a href="faq.html">FAQ's</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </div>
+      </div>
+
+      <div class="col-md-4">
+
+        <h3>Contact Us</h3>
+
+        <div class="d-flex gap-3">
+        <div class="icons">
+        <i class="ti ti-home"></i> 
+        </div>
+        <div>51-B, Someshwara Bunglows 2, Opp. Star Bazar, Satellite, Ahmedabad- 380015.</div>
+      </div>
+      <br>
+
+      <div class="d-flex gap-3">
+        <div class="icons">
+        <i class="ti ti-phone"></i> 
+        </div>
+        <div class="ancor">
+        <a href="#">079 48007195 / +91 9726168133 / +91 9277008800</a>
+      </div>
+    </div>
+      <br>
+
+      <div class="d-flex gap-3">
+        <div class="icons">
+        <i class="ti ti-mail"></i> 
+        </div>
+        <div class="ancor">
+        <a href="#">friends@manavkartavya.org</a>
+      </div>
+    </div>
+      </div>
+      
+    </div>
+    
+    <hr>
+    <div class="d-flex justify-content-between">
+      <p> © Copyright 2024 Adventist - All Right's Reserved</p>
+      
+      <p>Design & Developed By - <a href="https://www.juneco.in" target="_blank"  class="text-light">Juneco.in</a></p>
+    </div>
+  </div>
+
+
+  </div>
+</section>
+
+
+
+
+
+
+
+   <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+</body>
+</html>
