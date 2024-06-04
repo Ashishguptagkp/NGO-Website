@@ -51,6 +51,12 @@ nav a{
     
 }
 
+.card img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
 .btn-primary:focus{
     background-color: transparent;
     
@@ -362,6 +368,14 @@ nav a{
     color: white !important;
     margin-left: 55px;
 }
+
+.card-Text{
+    margin-left: 25px;
+}
+
+.card-Title{
+    margin-left: 25px;
+}
 .arrow2{
     background-color: var(--baigani) !important;
     color: white !important;
@@ -374,10 +388,10 @@ nav a{
     color: white !important;
     margin-left: 55px;
 }
-.card-body{
+/* .card-body{
     margin-left: 40px;
 
-}
+} */
 
 .card-Text li{
     list-style: none;
@@ -394,6 +408,13 @@ nav a{
     height: 400px;
     width: 100%;
 }
+
+.swiper-slide img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
 
 /* approach section  */
 .approachBg{
