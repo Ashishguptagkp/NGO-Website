@@ -36,6 +36,14 @@ nav a{
     font-weight: 600 !important;
     
 }
+.carousel-item img{
+    filter: blur(2px);
+    filter: brightness(60%);
+
+}
+.carousel i{
+    display: none !important;
+}
 
 .btn-primary{
     background-color: transparent;
@@ -43,12 +51,20 @@ nav a{
     padding: 10px 25px;
     border-radius: 50px;
     font-size: 15px;
-    border: 1px solid black;
+    border: 1px solid var(--blue);
     font-weight: 600 !important;
 }
 .btn-primary:focus:hover{
     background-color: transparent;
     
+}
+.carousel-control-prev-icon::after{
+    display: none !important;
+    
+}
+
+.carousel-control-next-icon::after{
+    display: none !important;
 }
 
 .card img{
@@ -95,7 +111,7 @@ nav a{
     color: white;
     padding: 20px;
     border-radius: 50%;
-    font-weight: 600 !important;
+    
 }
 
 .carousel-control-next-icon{
@@ -103,7 +119,6 @@ nav a{
     color: white;
     padding: 20px;
     border-radius: 50%;
-    font-weight: 600 !important;
 }
 .carousel-item img{
     background-image: linear-gradient(rgba(32, 33, 33, 0.8), rgba(39, 40, 40, 0.8));
