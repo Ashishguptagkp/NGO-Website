@@ -12,6 +12,7 @@
 
 }
 
+
 :root{
     --blue:#008AD0;
     --deepblue:#041D57;
@@ -22,9 +23,52 @@ body{
     background-color: #f9f9f9 !important;
 }
 
+.social{
+    display: flex;
+    padding: 10px;
+    
+    
+}
+.social a{
+    color: white;
+}
+.social i{
+    padding: 10px;
+    background-color: var(--deepblue);
+    border-radius: 50%;
+    display: flex;
+    justify-self: center;
+    align-items: center;    
+    
+}
+.social-1 a{
+    color: white;
+}
+.social-1{
+    display: flex;
+    padding: 10px;
+    justify-content:end;
+    
+}
+.social-1 i{
+    padding: 10px;
+    background-color: var(--deepblue);
+    border-radius: 50%;
+    display: flex;
+    justify-self: center;
+    align-items: center;    
+    
+}
+/* .social i:hover{
+       background-color: var(--deepblue);
+       border: 0;
+    
+} */
+
 nav a{
     letter-spacing: 1px;
 }
+
 
 
 .carousel-caption h1{
@@ -38,7 +82,7 @@ nav a{
 }
 .carousel-item img{
     filter: blur(2px);
-    filter: brightness(60%);
+    filter: brightness(50%);
 
 }
 .carousel i{
@@ -343,7 +387,7 @@ nav a{
 
 
 .aboutBg{
-    background: url(/images/children.jpg) no-repeat;
+    background: url(/images/abb.jpeg) no-repeat;
     background-position: center;
     min-height: 70vh;
     display: flex;
@@ -548,6 +592,9 @@ nav a{
     width: 100px;
     border-radius: 50%;
    
+}
+.icons a{
+    color: white;
 }
 .icon i{
     font-size: 30px;

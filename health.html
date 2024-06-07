@@ -17,8 +17,35 @@
 </head>
 
 <body>
+
+
+    <!-- topbar  -->
+     
+    <div class="bg-primary text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="social gap-2">
+             <a href="tel:6392008441"><i class="ti ti-phone"></i></a>
+              </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="social-1 gap-2">
+       <a href=""><i class="ti ti-brand-facebook"></i></a>
+       <a href=""><i class="ti ti-brand-instagram"></i></a>
+       <a href=""><i class="ti ti-brand-twitter"></i></a>
+      </div>
+    </div>
+    </div>
+  </div>
+    </div>
+
+    <!-- topbar end  -->
+
+
   <!-- navbar  -->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
     <!-- Container wrapper -->
     <div class="container">
       <!-- Toggle button -->
@@ -39,13 +66,13 @@
             width="60px"
             height="60px"
           />
-          <h3 class="text-primary fw-bold">Adventist</h3>
+          <h3 class="text-primary fw-bold">Eastern U.P. Section</h3>
         </div>
 
         <!-- Left links -->
         <ul class="navbar-nav d-flex gap-3 align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" aria-current="page" href="/">Home</a>
           </li>
 
           <li class="nav-item">
@@ -61,7 +88,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li>
-                <a class="dropdown-item" href="childgallery.html">Child Education</a>
+                <a class="dropdown-item" href="childgallery.html">Children Ministry</a>
               </li>
               <li>
                 <a class="dropdown-item" href="women.html">Women's Department</a>
@@ -76,31 +103,17 @@
                 <a class="dropdown-item" href="commni.html">Communication Department</a>
               </li>
               <li>
-                <a class="dropdown-item" href="health.html">Health Department</a>
+                <a class="dropdown-item active" href="health.html">Sabbath School and Personal Ministries</a>
               </li>
             </ul>
           </li>
 
           
 
-          <!-- Dropdown -->
-          <li class="nav-item dropdown">
-            <a data-mdb-dropdown-init class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
-              aria-expanded="false">
-              Get Involved <i class="ti ti-chevron-down fs-6"></i>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li>
-                <a class="dropdown-item" href="career.html">Career</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="insternship.html">Internship</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="volunteer">Volunteer</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
           </li>
+
 
 
           <!-- Dropdown -->
@@ -111,7 +124,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li>
-                <a class="dropdown-item" href="childgallery.html">Child Education</a>
+                <a class="dropdown-item" href="childgallery.html">Children Ministry</a>
               </li>
               <li>
                 <a class="dropdown-item" href="women.html">Women Empowerment</a>
@@ -120,10 +133,10 @@
                 <a class="dropdown-item" href="old.html">Youth Department</a>
               </li>
               <li>
-                <a class="dropdown-item" href="help.html">Help Needy People</a>
+                <a class="dropdown-item" href="help.html">Communication Department</a>
               </li>
               <li>
-                <a class="dropdown-item" href="health.html">Health</a>
+                <a class="dropdown-item" href="health.html">Sabbath School and Personal Ministries</a>
               </li>
             </ul>
           </li>
@@ -353,11 +366,11 @@
   
         <div class="d-flex gap-3">
           <div class="icons">
-          <i class="ti ti-phone"></i> 
-          </div>
-          <div class="ancor">
-          <a href="#">079 48007195 / +91 9726168133 / +91 9277008800</a>
-        </div>
+            <a href="tel:6392008441"><i class="ti ti-phone"></i></a>
+            </div>
+            <div class="ancor">
+              <a href="tel:6392008441">+91 6392008441</a>
+            </div>
       </div>
         <br>
   
@@ -396,5 +409,11 @@
    <script src="script.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
-  </body>
+ 
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+      <script>
+        AOS.init();
+      </script>
+    </body>
   </html>
