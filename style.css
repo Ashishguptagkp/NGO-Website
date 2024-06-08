@@ -26,7 +26,7 @@ body{
 .social{
     display: flex;
     padding: 10px;
-    
+    align-items: center;
     
 }
 .social a{
@@ -551,7 +551,7 @@ nav a{
 
 /* contact section  */
 .contactBg{
-    background: url(/images/contact-us-banner.jpg) no-repeat;
+    background: url(/images/sch.jpeg) no-repeat;
     background-position: center;
     min-height: 80vh;
     display: flex;
