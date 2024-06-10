@@ -385,6 +385,10 @@ nav a{
     opacity: .4;
 }
 
+/* .helpingImg img{
+    min-width:400px;
+    height: 400px;
+} */
 
 .aboutBg{
     background: url(/images/abb.jpeg) no-repeat;
@@ -605,4 +609,14 @@ nav a{
 }
 .form-outline textarea:focus{
     background-color: transparent;
+}
+
+.study{
+    background: url(/images/qq.jpeg) no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
 }

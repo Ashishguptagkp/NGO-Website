@@ -12,3 +12,12 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+
+
+  var cards= document.querySelectorAll('.card-img img');
+  
+
+  cards.forEach(element => {
+    element.classList.add('w-100')
+  });
