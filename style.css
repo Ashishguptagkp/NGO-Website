@@ -544,7 +544,7 @@ nav a{
 
 /* health gallery  */
 .healthBg{
-    background: url(/images/l.jpeg) no-repeat;
+    background: url(/images/r.jpeg) no-repeat;
     background-position: center;
     min-height: 80vh;
     display: flex;
