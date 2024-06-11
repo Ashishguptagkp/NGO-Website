@@ -391,13 +391,15 @@ nav a{
 } */
 
 .aboutBg{
-    background: url(/images/abb.jpeg) no-repeat;
+    background: url(/images/4.jpeg) no-repeat;
     background-position: center;
     min-height: 70vh;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .aboutText{ 
     color: white !important;
@@ -533,14 +535,25 @@ nav a{
 
 /* help gallery  */
 .helpBg{
-    background: url(/images/21.jpeg) no-repeat;
-    /* background-position: center; */
+    background: url(/images/h.jpeg) no-repeat;
+    background-position: center;
     min-height: 80vh;
     display: flex;
     background-size: cover;
     justify-content: center;
     align-items: center;
 }
+
+.stiBg{
+    background: url(/images/i.jpeg) no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* health gallery  */
 .healthBg{
